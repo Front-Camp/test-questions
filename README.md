@@ -2,7 +2,103 @@
 # test-questions
 
 ## Logic questions
-[TODO:]
+1. Tanya is older than Eric.
+Cliff is older than Tanya.
+Eric is older than Cliff. 
+
+If the first two statements are true, the third statement is
+
+A. true
+B. false
+C. uncertain
+
+2. Blueberries cost more than strawberries.
+Blueberries cost less than raspberries.
+Raspberries cost more than both strawberries and blueberries.
+
+If the first two statements are true, the third statement is
+
+A. true
+B. false
+C. uncertain
+
+3. All the trees in the park are flowering trees.
+Some of the trees in the park are dogwoods.
+All dogwoods in the park are flowering trees.
+
+If the first two statements are true, the third statement is
+
+A. true
+B. false
+C. uncertain
+
+4. B2CD, _____, BCD4, B5CD, BC6D
+
+A. B2C2D
+B. BC3D
+C. B2C3D
+D. BCD7
+
+5. Play is to actor as concert is to
+
+A. symphony
+B. musician
+C. piano
+D. percussion
+
+
+6. Fact 1: Robert has four vehicles.
+Fact 2: Two of the vehicles are red.
+Fact 3: One of the vehicles is a minivan.
+
+If the first three statements are facts, which of the following statements must also be a fact?
+
+I: Robert has a red minivan.
+II: Robert has three cars.
+III: Robert's favorite color is red.
+
+A. I only
+B. II only
+C. II and III only
+D. None of the statements is a known fact.
+
+7. Fact 1: All chickens are birds.
+Fact 2: Some chickens are hens.
+Fact 3: Female birds lay eggs.
+
+If the first three statements are facts, which of the following statements must also be a fact?
+
+I: All birds lay eggs.
+II: Some Hens are birds.
+III: Some chickens are not hens.
+
+A. I only
+B. II only
+C. II and III only
+D. None of the statements is a known fact.
+
+8. 4 : 256 :: 5 : ?
+
+A. 526
+B. 625
+C. 125
+D. 726
+E. 620
+
+9. Which word does NOT belong with the others?
+
+A. two
+B. three
+C. six
+D. eight
+
+10. Look at this series: 8, 43, 11, 41, __, 39, 17, ... What number should fill in the blank?
+
+A. 8
+B. 14
+C. 43
+D. 44
+
 
 ## Javascript
 1. What is the correct JavaScript syntax to change the content of the HTML element below?
