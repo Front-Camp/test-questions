@@ -5,7 +5,112 @@
 [TODO:]
 
 ## Javascript
-[TODO:]
+1. What is the correct JavaScript syntax to change the content of the HTML element below?
+
+<p id="demo">This is a test.</p>
+
+A document.getElementByName("p").innerHTML = "Hello World!";
+B #demo.innerHTML = "Hello World!";
+C document.getElement("p").innerHTML = "Hello World!";
+D document.getElementById("demo").innerHTML = "Hello World!";
+
+2. Which of the following is NOT a JavaScript object?
+
+A let obj = {};
+B let obj = { name: "Steve"};
+C let obj = { name = "Steve"};
+D let obj = new Object();
+
+3. Which of the following is an example of anonymous function in JavaScript?
+
+A let myFunc = function(){ };
+B function(){ };
+C let myFunc = (){ };
+D All of the above.
+
+4. Will alert be shown?
+
+if ("0") {
+  alert( 'Hello' );
+}
+
+A Yes
+B No
+
+5. How many parameters can be passed to the function?
+
+A none
+B one for each argument
+C as much as you like
+D one
+
+6. A ? B : C is equivalent to:
+
+A if (A) {B} else {C}
+B if (A==B) C
+C if (A!=B) C
+D if (A) {B; C}
+
+7. The code to obtain a random number between 5 and 9 inclusive is:
+
+A Math.floor(Math.random() * 5) + 4)
+B Math.floor(Math.random() * 4) + 4)
+C Math.floor(Math.random() * 4) + 5)
+D Math.floor(Math.random() * 5) + 5)
+
+8. To see if three variables are equal we would use:
+
+A A=B=C
+B (A==B)&&(B==C)
+C (A=B)&&(B=C)
+D (A==B)&(B==C)
+
+9. What is this code going to show?
+
+let fruits = ["Apples", "Pear", "Orange"];
+
+let shoppingCart = fruits;
+shoppingCart.push("Orange");
+
+alert( fruits.length );
+
+A 1
+B 2
+C 3
+D 4
+
+10. When executed, this will pop up three alerts. In order, what are they?
+
+let a = 6;
+function test() {
+    let a = 7;
+    function again() {
+        let a = 8;
+        alert(a);  // First
+    }
+    again();
+    alert(a);  // Second
+}
+test();
+​alert(a);​  // Third
+
+A 6; 7; 8
+B 7; 6; 8
+C 8; 7; 6
+D 8; 6; 7
+
+11. What is this code going to show?
+
+(function(foo) {
+  alert(foo);
+})(this);
+
+A SyntaxError
+B [object Window]
+C function(foo) {
+    alert(foo);
+  }
+D 'this'
 
 ## HTML/CSS
 
@@ -68,6 +173,73 @@
  p {font-weight:bold;}
 
 ## Git (Github)
-[TODO:]
+
+1. What's the git command that downloads your repository from GitHub to your computer?
+
+git push
+git fork
+git clone
+git commit
+
+2. How do you create a copy of a repository under your own GitHub account?
+
+Forking it via the GitHub interface.
+git fork
+git clone
+git pull-request
+
+3. What's the opposite of git clone, instead of downloading your code from GitHub, uploads your changes and code back to GitHub?
+
+git push
+git add
+git upload
+git status
+
+4. How do you check the state of your local git repository since your last commit?
+
+git check
+git status
+git commit
+git diff
+
+5. How do you stage files for a commit?
+
+git stage
+git commit
+git add
+git reset
+
+6. How do you save the current state of your code into the git version control?
+
+By committing the staged changes with git commit
+By adding all changes and staging them with git stage
+By adding all changes and staging them with git add
+By creating a new commit with git init
+
+7. What's a shortcut to staging all the changes you have?
+
+git commit add .
+git commit .
+git add .
+git push -am "Message"
+
+8. How do you supply a commit message to a commit?
+
+git message "I'm coding"
+git add "I'm coding"
+git commit "I'm coding"
+git commit -m "I'm coding"
+
+9. What is the correct commit syntax for all changes with a message?
+
+git message -am "I'm coding"
+git add -a "I'm coding"
+git commit -a "I'm coding"
+git commit -am "I'm coding"
+
+10. What comes first, staging with git add . or committing with git commit?
+
+Staging your commits with git add
+Committing with git commit
 
 ```
