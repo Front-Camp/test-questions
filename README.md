@@ -1,6 +1,7 @@
 ```
 # test-questions
 
+
 ## Logic questions
 1. Tanya is older than Eric.
 Cliff is older than Tanya.
@@ -162,6 +163,7 @@ B. Бушку можна доїти, але не годувати, вона са
 C. Після годування бушку можна доїти.
 
 
+
 ## Javascript
 1. What is the correct JavaScript syntax to change the content of the HTML element below?
 
@@ -270,6 +272,143 @@ C function(foo) {
   }
 D 'this'
 
+---------------------------------------------------------
+
+1.
+function() {
+    var a = 10;
+    if(a > 5) {
+        a = 7;
+    }
+    alert(a);
+}
+
+When executed, what value will be alerted to the screen?
+A. 7
+B. 10
+C. null
+D. undefined
+
+2.
+function() {
+    if(true) {
+        var a = 5;
+    }
+    alert(a);
+}
+
+Ok, so what would be the value alerted by this function?
+A. 0
+B. 5
+C. null
+D. undefined
+
+3.
+var a = 5;
+function first() {
+    a = 6;
+}
+
+function second() {
+    alert(a);
+}
+
+Assuming I call these functions in order, what value gets alerted?
+A. 0
+B. 5
+C. 6
+D. null
+E. undefined
+
+4.
+function first() {
+    window.a = 3;
+}
+
+function second() {
+    alert(a);
+}
+
+Assuming I call these functions in order, what's alerted?
+A. 0
+B. 3
+C. null
+D. undefined
+
+5.
+var a = 5;
+function() {
+    var a = 7;
+    alert(a);
+}
+
+There are now two variables with the same name, a. Which one does Javascript pick?
+A. 5
+B. 7
+
+6.
+function getFunc() {
+    var a = 7;
+    return function(b) {
+        alert(a+b);
+    }
+}
+var f = getFunc();
+f(5);
+
+What's alerted to the screen?
+A. 5
+B. 7
+C. 12
+D. null
+E. undefined
+
+7.
+function User() { }
+User.prototype = { admin: false };
+
+let user = new User();
+
+User.prototype = { admin: true };
+
+alert(user.admin);
+
+A. false
+B. undefined
+C. true
+
+8.
+var foo = function foo() {
+    console.log(foo === foo);  
+};
+foo();
+
+A. true
+B. false
+C. ReferenceError
+
+9.
+Number("1") - 1 == 0;
+A. true
+B. false
+C. ReferenceError
+
+10.
+for(var i=0; i<10; i++) {
+  setTimeout(function() {
+    alert(i);
+  }, 100);
+}
+
+A. What's alerted to the screen?
+B. Numbers from 0 to 9.
+C. Numbers from 0 to 10.
+D. 10 times number 0.
+E. 10 times number 10.
+F. Error: variable not defined.
+
+
+
 ## HTML/CSS
 
  1. Choose the correct HTML element for the largest heading:
@@ -329,6 +468,8 @@ D 'this'
  <p style="text-size:bold;">
  <p style="font-size:bold;">
  p {font-weight:bold;}
+
+
 
 ## Git (Github)
 
