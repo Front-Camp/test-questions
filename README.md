@@ -646,4 +646,92 @@ git commit -am "I'm coding" <--
 Staging your commits with git add <--
 Committing with git commit
 
+-------------------------------------------------------------------------
+
+1.
+Which of the following is the correct way to initialize a new Git repository?
+
+A. git add .
+--> B. git init
+C. git commit
+
+2.
+You can type git status at any point while in a git controlled directory to check the status of your files.
+
+--> A. True
+B. False
+
+3.
+Which of the following commands will stage your entire directory and every non-empty directory inside your current directory?
+
+A. git status all
+--> B. git add .
+C. git commit all
+
+4.
+We've just created a new file called index.html. Which of the following will stage this one file so we can commit it?
+
+A. git add index.html
+B. git add new
+C. git commit index.html
+
+5.
+git status returns:
+
+`On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+    new file:   index.html`
+
+How would you commit this with the message "adding new authors to index"
+
+--> A. git commit -m "adding new authors to index"
+B. git commit "adding new authors to index"
+C. git commit .
+
+6.
+To stage only files with a .txt extention, the command is?
+
+--> A. git add *.txt
+B. git add *.text
+C. git add -a .txt
+D. git add - *.txt
+
+7.
+Assuming a remote reposistory at https://github.com/myawesomegitname/my_repo.git, how would you add the remote repository to your local git?
+
+A. git remote origin add https://github.com/myawesomegitname/my_repo.git
+B. git remote new origin https://github.com/myawesomegitname/my_repo.git
+C. git remote add https://github.com/myawesomegitname/my_repo.git
+--> D. git remote add origin https://github.com/myawesomegitname/my_repo.git
+
+8.
+To get the lastest changes from your remote repository, the git command is?
+
+A. git refresh
+B. git pull down
+--> C. git pull origin master
+D. git reset
+
+9.
+To unstage a currently staged file called octocat.txt, the git command is?
+
+A. git reset octocat.txt
+B. git checkout -- octocat.txt
+C. git HEAD^ -- octocat.txt
+D. git unstage -- octocat.txt
+
+10.
+To make a new git branch, the git command is?
+
+--> A. git branch
+B. git -b
+C. git new branch
+D. git checkout branch
+
+
 ```
