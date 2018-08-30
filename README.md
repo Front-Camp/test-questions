@@ -105,62 +105,62 @@ D. 44
 1. Відомо, що гримзик обов'язково або смугастий, або рогатий, або те й інше разом.
 
 A. Гримзик не може бути безрогим.
-B. Гримзик не може бути однокольоровим та безрогим одночасно.
+B. Гримзик не може бути однокольоровим та безрогим одночасно. <--
 C. Гримзик не може бути смугастим та безрогим одночасно.
 
 2. Якщо запирку отруїти, то вона одразу почне пускати бульбашки
 
 A. Якщо запирка пускає бульбашки, то її отруїли.
 B. Якщо запирку не отруїти, то вона не буде пускати бульбашки.
-C. Якщо запирка не пускає бульбашки, то її не отруїли.
+C. Якщо запирка не пускає бульбашки, то її не отруїли. <--
 
 3. Дубаратори бувають або хорошими, або поганими. Неправда, що цей дубаратор не поганий.
 
 A. Цей дубаратор хороший.
 B. Цей дубаратор такий собі.
-C. Цей дубаратор поганий.
+C. Цей дубаратор поганий. <--
 
 4. Неправда, що наша тумельниця велика та кругла.
 
 A. Наша тумельниця маленька та некругла.
-B. Наша тумельниця маленька, або некругла, або те й інше разом.
+B. Наша тумельниця маленька, або некругла, або те й інше разом. <--
 C. Наша тумельниця або маленька, або некругла, але не те й інше разом.
 
 5. Якщо почухати угубка за вухом, він почне задоволено шипіти. Якщо угубок задоволено зашипить, то поблизу скисне молоко.
 
 A. Якщо не чухати угубка за вухом, то молоко поблизу не скисне.
-B. Якщо почухати угубка за вухом, то поблизу скисне молоко.
+B. Якщо почухати угубка за вухом, то поблизу скисне молоко. <--
 C. Молоко, що знаходиться далеко, ніколи не скисає від чухання угубків.
 
 6. Усіх, хто гучно буриться, обов'язково з'їдають. Усі ухмирки постійно гучно буряться.
 
 A. Усі, хто гучно буриться - ухмирки.
-B. Усіх ухмирків обов'язково з'їдають.
+B. Усіх ухмирків обов'язково з'їдають. <--
 C. Деяких ухмирків не з'їдають.
 
 7. Коли ви спите, ви завжди мухруєте.
 
 A. Якщо ви мухруєте, значить, ви спите.
 B. Якщо ви не спите, то ви не мухруєте.
-C. Якщо ви не мухруєте, значить, ви не спите.
+C. Якщо ви не мухруєте, значить, ви не спите. <--
 
 8. Деякі лапухондрії не стабільні.
 
 A. Не усяка лапухондрія не стабільна.
 B. Існують стабільні лапухондрії.
-C. Не усяка лапухондрія стабільна.
+C. Не усяка лапухондрія стабільна. <--
 
 9. Казали, що дукуни і гострі, і тверді. Виявляється, це зовсім не так.
 
 A. Насправді, дукуни тупі та м'які.
-B. Насправді, дукуни тупі або м'які, або і те, і інше разом.
+B. Насправді, дукуни тупі або м'які, або і те, і інше разом. <--
 C. Насправді, дукуни тупі або м'які, але не те й інше разом.
 
 10. Якщо нагодувати бушку, вона заспокоїться. Спокійну бушку можна доїти.
 
 A. Якщо бушку не годувати, її не можна буде доїти.
 B. Бушку можна доїти, але не годувати, вона сама щось знайде і з'їсть.
-C. Після годування бушку можна доїти.
+C. Після годування бушку можна доїти. <--
 
 
 
@@ -172,18 +172,18 @@ C. Після годування бушку можна доїти.
 A document.getElementByName("p").innerHTML = "Hello World!";
 B #demo.innerHTML = "Hello World!";
 C document.getElement("p").innerHTML = "Hello World!";
-D document.getElementById("demo").innerHTML = "Hello World!";
+D document.getElementById("demo").innerHTML = "Hello World!"; <--
 
 2. Which of the following is NOT a JavaScript object?
 
 A let obj = {};
 B let obj = { name: "Steve"};
-C let obj = { name = "Steve"};
+C let obj = { name = "Steve"}; <--
 D let obj = new Object();
 
 3. Which of the following is an example of anonymous function in JavaScript?
 
-A let myFunc = function(){ };
+A let myFunc = function(){ }; <--
 B function(){ };
 C let myFunc = (){ };
 D All of the above.
@@ -194,19 +194,19 @@ if ("0") {
   alert( 'Hello' );
 }
 
-A Yes
+A Yes <--
 B No
 
 5. How many parameters can be passed to the function?
 
 A none
 B one for each argument
-C as much as you like
+C as much as you like <--
 D one
 
 6. A ? B : C is equivalent to:
 
-A if (A) {B} else {C}
+A if (A) {B} else {C} <--
 B if (A==B) C
 C if (A!=B) C
 D if (A) {B; C}
@@ -216,12 +216,12 @@ D if (A) {B; C}
 A Math.floor(Math.random() * 5) + 4)
 B Math.floor(Math.random() * 4) + 4)
 C Math.floor(Math.random() * 4) + 5)
-D Math.floor(Math.random() * 5) + 5)
+D Math.floor(Math.random() * 5) + 5) <--
 
 8. To see if three variables are equal we would use:
 
 A A=B=C
-B (A==B)&&(B==C)
+B (A==B)&&(B==C) <--
 C (A=B)&&(B=C)
 D (A==B)&(B==C)
 
@@ -237,7 +237,7 @@ alert( fruits.length );
 A 1
 B 2
 C 3
-D 4
+D 4 <--
 
 10. When executed, this will pop up three alerts. In order, what are they?
 
@@ -256,7 +256,7 @@ test();
 
 A 6; 7; 8
 B 7; 6; 8
-C 8; 7; 6
+C 8; 7; 6 <--
 D 8; 6; 7
 
 11. What is this code going to show?
@@ -266,7 +266,7 @@ D 8; 6; 7
 })(this);
 
 A SyntaxError
-B [object Window]
+B [object Window] <--
 C function(foo) {
     alert(foo);
   }
@@ -469,6 +469,102 @@ F. Error: variable not defined.
  <p style="font-size:bold;">
  p {font-weight:bold;}
 
+-------------------------------------------
+
+1. Select the correct option to open a link in a new browser window
+
+A href="url" new
+A href="url" target="_blank" <--
+A href="url" target="new"
+A href="url" target=_window"
+none
+
+2. Select the property that is used to change the list style to show roman numerals instead of normal numbers
+
+list-type:roman;
+list-style-type:upper-roman; <--
+list-style:roman;
+list-bullet-type:roman-numerals;
+None
+
+3. For users that use the tab key to navigate websites, what property represents this way of moving from one element to another?
+
+a:focus <--
+a:link
+a:active
+a:visited
+None
+
+4. When these elements are rendered, what will be the margin between them?
+<style>
+h1 {
+  margin-bottom: 30px;
+  }
+h2 {
+  margin-top: 20px;
+  }
+</style>
+
+<h1>Title</h1>
+<h2>Subtitle</h2>
+
+A 50px, because 20+30=50
+B 30px, because of margin collapse <--
+C 20px, because margin-top is more important
+
+5. Which selector will target only the last list item?
+<ul>
+  <li>Not me.</li>
+  <li>Not me.</li>
+  <li>Target only me.</li>
+</li>
+
+A ul li:last-child <--
+B ul:last-child li
+C ul:last-child(li)
+
+6. What will be the final background-color of this div?
+<style>
+#red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+</style>
+
+<div id="red" class="blue"></div>
+
+A Red - the id selector has higher specificity <--
+B Blue - the .blue rule is after #red rule
+C Purple - blue and red will mix
+
+7.  Which of the following defines a measurement relative to a font's x-height?
+
+%
+cm
+em
+ex <--
+
+8. Is there a difference between Visibility: hidden and Display: none properties?
+
+No
+Yes, visibility: hidden will hide element from screen, but it will still take the space, while display: none will not display it at all <--
+Yes, visibility: hidden will hide element from screen, while display: none will not display element, but it will still take the space
+
+9. How can you create an email link?
+
+A href="mailto:xxx@yyy" <--
+A href="xxx@yyy"
+Mail>xxx@yyy
+Mail href="xxx@yyy"
+
+10. Which of the tag is used to create a number list?
+
+<LI>
+<OL> <--
+<LI> and <OL>
+None of these
 
 
 ## Git (Github)
@@ -477,19 +573,19 @@ F. Error: variable not defined.
 
 git push
 git fork
-git clone
+git clone <--
 git commit
 
 2. How do you create a copy of a repository under your own GitHub account?
 
-Forking it via the GitHub interface.
+Forking it via the GitHub interface. <--
 git fork
 git clone
 git pull-request
 
 3. What's the opposite of git clone, instead of downloading your code from GitHub, uploads your changes and code back to GitHub?
 
-git push
+git push <--
 git add
 git upload
 git status
@@ -497,7 +593,7 @@ git status
 4. How do you check the state of your local git repository since your last commit?
 
 git check
-git status
+git status <--
 git commit
 git diff
 
@@ -505,12 +601,12 @@ git diff
 
 git stage
 git commit
-git add
+git add <--
 git reset
 
 6. How do you save the current state of your code into the git version control?
 
-By committing the staged changes with git commit
+By committing the staged changes with git commit <--
 By adding all changes and staging them with git stage
 By adding all changes and staging them with git add
 By creating a new commit with git init
@@ -519,7 +615,7 @@ By creating a new commit with git init
 
 git commit add .
 git commit .
-git add .
+git add . <--
 git push -am "Message"
 
 8. How do you supply a commit message to a commit?
@@ -527,18 +623,18 @@ git push -am "Message"
 git message "I'm coding"
 git add "I'm coding"
 git commit "I'm coding"
-git commit -m "I'm coding"
+git commit -m "I'm coding" <--
 
 9. What is the correct commit syntax for all changes with a message?
 
 git message -am "I'm coding"
 git add -a "I'm coding"
 git commit -a "I'm coding"
-git commit -am "I'm coding"
+git commit -am "I'm coding" <--
 
 10. What comes first, staging with git add . or committing with git commit?
 
-Staging your commits with git add
+Staging your commits with git add <--
 Committing with git commit
 
 ```
